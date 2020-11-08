@@ -38,7 +38,7 @@ public class FXMLController {
     	
     	String etaS = txtEta.getText();
     	
-    	if(nome.length() == 0) {
+    	if(etaS.length() == 0) {
     		lblRisposta.setText("Devi inserire l'età");
     		return;
     	}
